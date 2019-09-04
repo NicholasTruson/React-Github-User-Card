@@ -11,6 +11,7 @@ import CardContent from './CardInfo'
 const CardComp = props => {
     console.log(props)
     return (<Segment raised>
+        <div class="ui container center aligned">
         <Card>
             <Image src={props.data.avatar_url} />
             <Card.Content>
@@ -32,6 +33,7 @@ const CardComp = props => {
             </Card.Content>
             
         </Card>
+        </div>
 
     </Segment>)
 }
