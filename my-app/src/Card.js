@@ -1,13 +1,14 @@
 // *** Imports *** //
 
 import React from 'react'
-import 'semantic-ui-css/semantic.min.css'
+
 import { Segment, Card, Image } from 'semantic-ui-react'
-import CardContent from './CardContent'
+
+import CardContent from './CardInfo'
 
 // *** Card Component *** //
 
-const Card = props => {
+const CardComp = props => {
     console.log(props)
     return (<Segment raised>
         <Card>
@@ -35,4 +36,4 @@ const Card = props => {
     </Segment>)
 }
 
-export default Card;
+export default CardComp;
